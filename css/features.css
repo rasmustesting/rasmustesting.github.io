@@ -1,0 +1,52 @@
+/* This is a "Features" tab css stylesheet */
+@charset "UTF-8";
+.navbar{
+	margin-bottom:0px;
+}
+header div{
+    background-color:#70CFBC;
+	text-align:center;
+	padding:40px;
+}
+.left{
+	width:33.3%;
+	float:left;
+	text-align:center;
+	padding:0 10px;
+}
+#article1{
+	background-color:#CCC;
+	overflow:hidden;
+	padding:40px 0px;
+}
+#article1 div img{
+	height:150px;
+	width:150px;
+	border-radius:100%;
+	background-color:#CCC;
+}
+#article2{
+	text-align:center;
+	display:none;
+	padding:20px;
+}
+#article2>img{
+	width:80%;
+	max-width:400px;
+	margin-bottom:20px;
+}
+#article2 h1{
+	color:#6C6C6C;
+}
+
+/* Smartphones (portrait) ----------- */
+@media screen and (orientation: portrait) {
+
+.left{
+	width:100%;
+	float:none;
+}
+#article1 div {
+	padding-bottom:20px;
+}
+}
